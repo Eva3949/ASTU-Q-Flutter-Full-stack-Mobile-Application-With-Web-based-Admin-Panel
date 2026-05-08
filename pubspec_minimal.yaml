@@ -1,0 +1,117 @@
+name: astuq
+description: "ASTU-Q - Peer-to-Peer Doubt Solver App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.2
+
+  # HTTP Client & Networking
+  dio: ^5.5.0+1
+  connectivity_plus: ^6.0.5
+
+  # Routing & Navigation
+  go_router: ^14.2.0
+
+  # Local Storage & Database
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.3
+
+  # Dependency Injection
+  get_it: ^7.7.0
+
+  # Image Handling
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+
+  # UI Components & Utilities
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.10+1
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+  flutter_spinkit: ^5.2.1
+
+  # Date & Time
+  intl: ^0.19.0
+  timeago: ^3.6.1
+
+  # Authentication & Security
+  local_auth: ^2.3.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.3
+
+  # Analytics & Crash Reporting
+  firebase_analytics: ^11.3.3
+  firebase_crashlytics: ^4.1.3
+  firebase_core: ^3.6.0
+
+  # File Handling
+  file_picker: ^8.0.5
+  permission_handler: ^11.0.1
+
+  # Web View
+  webview_flutter: ^4.8.0
+
+  # Social Sharing
+  share_plus: ^6.3.4
+
+  # URL Launcher
+  url_launcher: ^6.3.0
+
+  # Logger
+  logger: ^2.4.0
+
+  # Environment Configuration
+  flutter_dotenv: ^5.1.0
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  integration_test:
+    sdk: flutter
+
+  build_runner: ^2.4.12
+  json_serializable: ^6.8.0
+  injectable_generator: ^2.4.2
+
+  # Testing
+  mockito: ^5.4.4
+
+  # Static Analysis
+  very_good_analysis: ^6.0.0
+
+  # Development Tools
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
