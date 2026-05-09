@@ -20,7 +20,6 @@ import 'core/notifications/background_notifications.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize dependency injection
   await configureDependencies();
 
   // Initialize Notification Service
