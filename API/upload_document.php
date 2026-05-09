@@ -44,4 +44,4 @@ if (move_uploaded_file($file['tmp_name'], $targetPath)) {
 } else {
     sendJsonResponse(false, "Failed to move uploaded document.", [], 500);
 }
-?>
+?> 
