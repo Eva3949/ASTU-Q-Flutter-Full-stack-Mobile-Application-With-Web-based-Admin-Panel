@@ -48,4 +48,4 @@ if (move_uploaded_file($file['tmp_name'], $targetPath)) {
 } else {
     sendJsonResponse(false, "Failed to move uploaded image.", [], 500);
 }
-?>
+?>  
