@@ -14,9 +14,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit(0);
 }
 
-// --- CONFIGURATION ---
+// --- CONFIGURATION ---AIzaSyCnrd8MyUqbAa5ev4tcEgMfQx6AZYfr_QM
 // Get your API key from https://aistudio.google.com/app/apikey
-$GEMINI_API_KEY = "AIzaSyCnrd8MyUqbAa5ev4tcEgMfQx6AZYfr_QM"; 
+$GEMINI_API_KEY = " your API key here";
 // ---------------------
 
 // Get input data
