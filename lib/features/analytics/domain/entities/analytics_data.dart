@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-/// Analytics Overview Entity
+
 class AnalyticsOverview {
   final int totalQuestions;
   final int totalAnswers;
@@ -17,7 +17,7 @@ class AnalyticsOverview {
   });
 }
 
-/// Daily Activity Data Entity
+
 class DailyActivityData extends Equatable {
   final DateTime date;
   final int questionsCount;
