@@ -14,7 +14,7 @@ class GetAnalyticsOverviewUseCase {
   GetAnalyticsOverviewUseCase(this._repository);
 
   /// Execute the use case
-  ///
+ 
   /// [params] contains the date range for the analytics data
   /// Returns [AnalyticsOverview] on success or [Failure] on error
   Future<Either<Failure, AnalyticsOverview>> call(
