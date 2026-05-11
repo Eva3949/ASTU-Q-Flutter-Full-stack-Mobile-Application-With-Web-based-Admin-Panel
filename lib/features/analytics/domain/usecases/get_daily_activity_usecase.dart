@@ -14,7 +14,7 @@ class GetDailyActivityUseCase {
   GetDailyActivityUseCase(this._repository);
 
   /// Execute the use case
-  ///
+
   /// [params] contains the date range for the analytics data
   /// Returns [List<DailyActivityData>] on success or [Failure] on error
   Future<Either<Failure, List<DailyActivityData>>> call(
