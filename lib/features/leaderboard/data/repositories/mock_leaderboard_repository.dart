@@ -3,8 +3,7 @@ import '../../domain/repositories/leaderboard_repository.dart';
 import '../../../../core/errors/failures.dart';
 import '../../../../core/types/either.dart';
 
-/// Mock Leaderboard Repository Implementation
-/// For testing and development when backend is not available
+
 class MockLeaderboardRepository implements LeaderboardRepository {
   @override
   Future<Either<Failure, List<LeaderboardUser>>> getLeaderboard({
