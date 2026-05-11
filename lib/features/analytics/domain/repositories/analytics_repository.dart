@@ -3,7 +3,7 @@ import '../../../../core/types/either.dart';
 import '../entities/analytics_data.dart';
 import '../../../../core/errors/failures.dart';
 
-/// Analytics Repository Interface
+
 /// Defines the contract for analytics data operations
 abstract class AnalyticsRepository {
   /// Get analytics overview for a date range
