@@ -1,5 +1,4 @@
 /// Leaderboard User Entity
-/// Represents a user in the leaderboard system
 class LeaderboardUser {
   final int id;
   final String name;
