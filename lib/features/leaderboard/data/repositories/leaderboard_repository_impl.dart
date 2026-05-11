@@ -11,8 +11,7 @@ import '../../../../core/types/either.dart';
 import 'mock_leaderboard_repository.dart';
 import 'dart:io';
 
-/// Leaderboard Repository Implementation
-/// Concrete implementation of leaderboard data operations
+
 class LeaderboardRepositoryImpl implements LeaderboardRepository {
   final DioClient _dioClient;
   final Logger _logger;
